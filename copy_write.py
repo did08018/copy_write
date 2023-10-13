@@ -14,5 +14,3 @@ for root, dirs, files in os.walk(source):
         path_file = os.path.join(root, file)
         shutil.copy2(path_file, target)
         path.append(path_file)
-    print(path)
-
