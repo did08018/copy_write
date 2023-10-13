@@ -4,9 +4,6 @@ import shutil
 source = input("Enter the source directory: ")
 target = input("Enter the target directory: ")
 
-print(source)
-print(target)
-
 path = []
 
 for root, dirs, files in os.walk(source):
